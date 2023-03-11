@@ -1,0 +1,99 @@
+@font-face {
+  font-family: "Fanwood";
+  src: url("../fonts/Fanwood_Text/FanwoodText-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Indie Flower";
+  src: url("../fonts/Indie_Flower/IndieFlower-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Josefin";
+  src: url("../fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf") format("truetype");
+}
+
+html {
+  font-family: "Josefin", sans-serif;
+  background-color: #CCD5AE;
+}
+
+h1 {
+  font-family: "Fanwood", Calibri, serif;
+  font-size: 70px;
+  text-align: center;
+  color: #D4A373;
+  text-shadow: 2px 2px #CCD5AE;
+  background-color: #E9EDC9;
+}
+
+h2 {
+  font-family: 'Indie Flower', cursive;
+  font-size: 40px;
+  color: #D4A373;
+}
+
+article {
+  border: 3px solid #D4A373;
+  margin: 30px;
+  padding: 0 20px;
+  background-color: #FEFAE0;
+}
+
+#color-palette {
+  display: flex;
+  border: 8px solid white;
+}
+
+.color-box {
+  display: inline-block;
+  width: 20%;
+  text-align: center;
+  min-height: 100px;
+}
+
+#font-container {
+  display: block;
+  margin: auto
+}
+
+#dark-pistachio {
+  background-color: #CCD5AE;
+}
+
+#light-pistachio {
+  background-color: #E9EDC9;
+}
+
+#cream {
+  background-color: #FEFAE0;
+}
+
+#cappuccino {
+  background-color: #FAEDCD;
+}
+
+#mocha-cream {
+  background-color: #D4A373;
+}
+
+#fanwood {
+  font-family: "Fanwood", Calibri, serif;
+  font-size: 30px;
+  display: inline-block;
+  padding: 30px;
+}
+
+#indie {
+  font-family: 'Indie Flower', cursive;
+  font-size: 30px;
+  display: inline-block;
+  padding: 30px;
+}
+
+#josefin {
+  font-family: "Josefin", sans-serif;
+  font-size: 30px;
+  display: inline-block;
+  padding: 30px;
+}
